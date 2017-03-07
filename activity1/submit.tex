@@ -2,6 +2,7 @@
 
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{booktabs}
 
 \title{My first document}
 \date{2017-03-07}
@@ -75,6 +76,21 @@ Random citation \cite{DUMMY:1} embeddeed in text.
 This is some example text\footnote{\label{myfootnote}Hello footnote}.
 
 I'm referring to footnote \ref{myfootnote}.
+
+\begin{table}[h!]
+  \centering
+  \caption{Caption for the table.}
+  \label{tab:table1}
+  \begin{tabular}{ccc}
+    \toprule
+    Some & actual & content\\
+    \midrule
+    prettifies & the & content\\
+    as & well & as\\
+    using & the & booktabs package\\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \newpage
 
