@@ -9,3 +9,11 @@ This is a repo for KAIST-IS521 at 2017 Spring.
 3. Capitalize the subject line
 4. Do not end the subject line with a period
 5. Wrap the body at 72 characters
+
+## Brief summary for activity1/submit.tex
+
+I followed 0-8 tutorials at [here](https://www.
+    latex-tutorial.com/tutorials/beginners/)
+`activity1/submit.tex` contains almost all sample codes in tutorial,
+  so it can be called *master of tutorial*.
+
